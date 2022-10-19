@@ -1,0 +1,25 @@
+// palindrome proble.
+let str= "nayan";
+let bag="";
+for (let i=1; i<=str.length; i++){
+  if (str[i]==str[str.length-1]{
+      bag="Yes";
+      else {
+      bag="No";
+   }
+   }
+    console.log(bag)
+   }
+
+// primeproble.
+ let num= 13;
+  let  count= 0;
+ for (let i=1; i<=num; i++){
+     if (num%i==0){
+      count++;
+   }
+  }  
+  if (count==2){
+   console.log("No");
+ } else   { 
+   console.log("Yes");
